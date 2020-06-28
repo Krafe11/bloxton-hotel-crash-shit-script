@@ -1,0 +1,7 @@
+_G.Enabled = true
+while _G.Enabled == true do
+wait(2)
+
+game.ReplicatedStorage.HandToEvents.AcceptGive:FireServer()
+
+end
